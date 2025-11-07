@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Facturacion</class>
+ <widget class="QWidget" name="Facturacion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="lblticket">
+        <property name="text">
+         <string>Id del ticket:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="txtid_ticket"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnBuscar">
+        <property name="text">
+         <string>Buscar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lbNombre">
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lbAp_p">
+        <property name="text">
+         <string>Apellido Paterno</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lblAp_m">
+        <property name="text">
+         <string>Apellido Materno</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lblRFC">
+        <property name="text">
+         <string>RFC</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lblCalle">
+        <property name="text">
+         <string>Calle</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="lblExterior">
+        <property name="text">
+         <string>Numero Exterior</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="lblInterior">
+        <property name="text">
+         <string>Numero Interior (opcional)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="lblEstado">
+        <property name="text">
+         <string>Estado</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="lblCP">
+        <property name="text">
+         <string>Codigo Postal</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="lblAlcaldia">
+        <property name="text">
+         <string>Alcaldia</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="lblCFDI">
+        <property name="text">
+         <string>Uso CFDI</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="lblemail">
+        <property name="text">
+         <string>Correo Electronico</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txtNombre"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txtApellidoPat"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txtApellidoMat"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="txtRFC"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="txtCalle"/>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="txtCP"/>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLineEdit" name="txtAlcaldia"/>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLineEdit" name="txtEmail"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="lblREgimen">
+        <property name="text">
+         <string>Regimen fiscal</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QSpinBox" name="spbExterior"/>
+      </item>
+      <item row="6" column="1">
+       <widget class="QSpinBox" name="spbInterior"/>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>CDMX</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Edo. Mex</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QComboBox" name="cmbCFDI">
+        <item>
+         <property name="text">
+          <string>Adquisición de mercancías (G01)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gastos en general (G03)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QComboBox" name="cmbRegimen">
+        <item>
+         <property name="text">
+          <string>Régimen de Sueldos y Salarios</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Régimen Simplificado de Confianza (RESICO)
+</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <widget class="QPushButton" name="btnFactura">
+        <property name="text">
+         <string>Generar Factura</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSalir">
+        <property name="text">
+         <string>Salir</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

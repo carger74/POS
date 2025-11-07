@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registro_Usuario</class>
+ <widget class="QWidget" name="Registro_Usuario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>406</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-image: url(C:\Users\CG\PycharmProjects\Proyeto_Posible/imagen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="lbusuario">
+        <property name="text">
+         <string>Registro de usuario</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lbNombre">
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lbapellidoP">
+        <property name="text">
+         <string>Apellido paterno</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lbApellidoM">
+        <property name="text">
+         <string>Apellido materno</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lbRol">
+        <property name="text">
+         <string>Rol</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lbTelefono">
+        <property name="text">
+         <string>Telefono</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="lbEmail">
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="lbDeposito">
+        <property name="text">
+         <string>Cuenta deposito</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txNombre"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txtAp_p"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txtAp_m"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="cmbRol">
+        <item>
+         <property name="text">
+          <string>trabajador</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>gerente</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="txtTelefono"/>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="txtEmail"/>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="txtDeposito"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnAgregar">
+      <property name="text">
+       <string>Agregar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnRegresar">
+      <property name="text">
+       <string>Regresar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
